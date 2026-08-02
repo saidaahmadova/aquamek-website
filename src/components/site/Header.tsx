@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { Phone } from "lucide-react";
 
 const links = [
   { to: "/kataloq", label: "Məhsullar" },
@@ -12,6 +13,11 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-border/70 bg-background/85 backdrop-blur">
       <div className="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 py-3 sm:flex sm:justify-between">
         <Link to="/" className="flex min-w-0 items-center gap-2">
+          <img
+  src="/logo.png"
+  alt="Aquamek"
+  className="h-12 w-12 object-contain"
+/>
           <span className="truncate text-lg font-bold tracking-tight">Aquamek</span>
         </Link>
         <nav className="flex items-center gap-4 text-sm font-medium text-muted-foreground">
