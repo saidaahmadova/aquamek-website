@@ -18,7 +18,7 @@ export function Header() {
           </span>
           <span className="truncate text-lg font-bold tracking-tight">Aquamek</span>
         </Link>
-        <nav className="hidden items-center gap-7 text-sm font-medium text-muted-foreground md:flex">
+        <nav className="flex items-center gap-4 text-sm font-medium text-muted-foreground">
           {links.map((l) =>
             "to" in l ? (
               <Link
