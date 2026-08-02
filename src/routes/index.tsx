@@ -125,6 +125,33 @@ const reviews = [
 
 function Index() {
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  setLoading(true);
+
+  const formData = new FormData(e.currentTarget);
+
+  formData.append(
+    "access_key",
+    "6ad47250-d5d4-4d91-9b72-aa6420e1e98a"
+  );
+
+  const res = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    body: formData,
+  });
+
+  const data = await res.json();
+
+  if (data.success) {
+    setSent(true);
+    e.currentTarget.reset();
+  }
+
+  setLoading(false);
+};
 
   return (
     <div className="min-h-screen bg-background">
@@ -340,13 +367,13 @@ function Index() {
               <ul className="mt-8 space-y-4 text-sm">
                 <li className="flex items-center gap-3">
                   <Phone className="h-5 w-5 shrink-0 text-primary" />
-                  <a href="tel:+994505550101" className="font-medium hover:text-primary">
+                  <a href="tel:+994505154130" className="font-medium hover:text-primary">
                     +994 50 515 41 30
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="h-5 w-5 shrink-0 text-primary" />
-                  <a href="mailto:info@aquamek.az" className="font-medium hover:text-primary">
+                  <a href="mailto:sales@emaars.org">
                     sales@emaars.org
                   </a>
                 </li>
@@ -361,11 +388,7 @@ function Index() {
               </ul>
             </div>
 
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                setSent(true);
-              }}
+            <form onSubmit={handleSubmit}
               className="rounded-3xl border border-border bg-card p-6 shadow-card sm:p-8"
             >
               <div className="grid gap-4">
@@ -411,8 +434,11 @@ function Index() {
                 </label>
                 <button
                   type="submit"
+                  disabled={loading}
                   className="rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-card transition-opacity hover:opacity-90"
+      
                 >
+                  {loading ? "Göndərilir..." : "Sifarişi göndər"}
                   Sifarişi göndər
                 </button>
                 {sent && (
