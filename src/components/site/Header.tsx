@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import { Droplets, Phone } from "lucide-react";
 
 const links = [
   { to: "/kataloq", label: "Məhsullar" },
