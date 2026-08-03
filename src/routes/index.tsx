@@ -49,7 +49,7 @@ const products = [
   {
     name: "Elsea Digital Smart",
     img: filter1,
-    price: "2500 ₼",
+    price: "250 ₼",
     tag: "Ən çox seçilən",
     desc: "7 mərhələli əks osmos sistemi – premium, nəzarətli seçim.",
     features: ["7 mərhələli təmizləmə", "12 l/saat məhsuldarlıq", "Sıxılmış karbon kartric"],
