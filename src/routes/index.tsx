@@ -114,12 +114,12 @@ const reviews = [
   {
     name: "Elvin Məmmədov",
     city: "Sumqayıt",
-    text: "Slim Flow modelini aldım. Mətbəxdə demək olar heç yer tutmur, işi də səssizdir. Ustalar çox peşəkar idi.",
+    text: "Elsea 300 GPD modelini aldım. Mətbəxdə demək olar heç yer tutmur, işi də səssizdir. Ustalar çox peşəkar idi.",
   },
   {
     name: "Günel Həsənova",
     city: "Gəncə",
-    text: "Mineral 7 sistemini uşaqlar üçün aldıq. Altı aydır problemsiz işləyir, servis vaxtını özləri xatırlatdılar.",
+    text: "Sustera Gold Digital sistemini aldıq. Altı aydır problemsiz işləyir, servis vaxtını özləri xatırlatdılar.",
   },
 ];
 
