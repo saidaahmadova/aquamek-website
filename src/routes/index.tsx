@@ -49,7 +49,7 @@ const products = [
   {
     name: "Elsea Digital Smart",
     img: filter1,
-    price: "250 ₼",
+    price: "",
     tag: "Ən çox seçilən",
     desc: "7 mərhələli əks osmos sistemi – premium, nəzarətli seçim.",
     features: ["7 mərhələli təmizləmə", "12 l/saat məhsuldarlıq", "Sıxılmış karbon kartric"],
@@ -57,7 +57,7 @@ const products = [
   {
     name: "Elsea 300 GPD",
     img: filter2,
-    price: "200 ₼",
+    price: "",
     tag: "Çənsiz",
     desc: "Kompakt çənsiz dizayn – az yer tutur, birbaşa axınla təmiz su verir.",
     features: ["Çənsiz kompakt korpus", "2 qat güclü membran", "Səssiz nasos"],
@@ -65,7 +65,7 @@ const products = [
   {
     name: "Elsea Luxury",
     img: filter3,
-    price: "280 ₼",
+    price: "",
     tag: "Premium",
     desc: "7 mərhələli sistem – mineral kartric suyun dadını və faydasını bərpa edir.",
     features: ["Mineral + alkali kartric", "Paslanmayan çən", "3 il zəmanət"],
