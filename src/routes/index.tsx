@@ -22,6 +22,9 @@ import heroImg from "@/assets/hero-water.jpg";
 import filter1 from "@/assets/filter-1.jpg";
 import filter2 from "@/assets/filter-2.jpg";
 import filter3 from "@/assets/filter-3.jpg";
+import filter4 from "@/assets/filter-4.jpg";
+import filter5 from "@/assets/filter-5.jpg";
+import filter6 from "@/assets/filter-6.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -69,6 +72,31 @@ const products = [
     tag: "Premium",
     desc: "7 mərhələli sistem – mineral kartric suyun dadını və faydasını bərpa edir.",
     features: ["Mineral + alkali kartric", "Paslanmayan çən", "3 il zəmanət"],
+  },
+  {
+    name: "Sustera Gold Compact",
+    img: filter4,
+    price: "",
+    tag: "Kompakt",
+    desc: "Yeddili mexaniki+karbon filtr – kran suyunun dadını və şəffaflığını bərpa edir.",
+    features: ["Yeddili mərhələli təmizləmə", "Asan kartric dəyişmə", "Mətbəx üçün ideal"],
+  },
+  {
+    name: "Sustera Gold Digital",
+    img: filter5,
+    price: "",
+    tag: "Digital",
+    desc: "Elektrikli çənli su təmizləyici – kompakt ölçüdə praktik həll.",
+    features: ["10.6 l güclü çən", "Enerjiyə qənaətli rejim"],
+  },
+  {
+
+    name: "Sustera Gold Slim",
+    img: filter6,
+    price: "",
+    tag: "İncə",
+    desc: "Bütün evi təmiz su ilə təmin edən güclü mərkəzi filtrasiya sistemi.",
+    features: ["6 mərhələli təmizləmə", "Gündə 200 l tutum", "İçməli su üçün"],
   },
 ];
 
