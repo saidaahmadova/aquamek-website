@@ -25,7 +25,7 @@ export const products: Product[] = [
     name: "Elsea Digital Smart",
     img: filter1,
     gallery: [filter1],
-    price: "250 ₼",
+    price: "",
     tag: "Ən çox seçilən",
     desc: "7 mərhələli əks osmos sistemi – premium, nəzarətli seçim.",
     longDesc:
@@ -44,7 +44,7 @@ export const products: Product[] = [
     name: "Elsea 300 GPD",
     img: filter2,
     gallery: [filter2],
-    price: "200 ₼",
+    price: "",
     tag: "Çənsiz",
     desc: "Kompakt çənsiz dizayn – az yer tutur, birbaşa axınla təmiz su verir.",
     longDesc:
@@ -63,7 +63,7 @@ export const products: Product[] = [
     name: "Elsea Luxury",
     img: filter3,
     gallery: [filter3],
-    price: "280 ₼",
+    price: "",
     tag: "Premium",
     desc: "7 mərhələli sistem – mineral kartric suyun dadını və faydasını bərpa edir.",
     longDesc:
@@ -82,7 +82,7 @@ export const products: Product[] = [
     name: "Sustera Gold Compact",
     img: filter4,
     gallery: [filter4],
-    price: "200 ₼",
+    price: "",
     tag: "Kompakt",
     desc: "Yeddili mexaniki+karbon filtr – kran suyunun dadını və şəffaflığını bərpa edir.",
     longDesc:
@@ -101,7 +101,7 @@ export const products: Product[] = [
     name: "Sustera Gold Digital",
     img: filter5,
     gallery: [filter5],
-    price: "200 ₼",
+    price: "",
     tag: "Digital",
     desc: "Elektrikli çənli su təmizləyici – kompakt ölçüdə praktik həll.",
     longDesc:
@@ -120,7 +120,7 @@ export const products: Product[] = [
     name: "Sustera Gold Slim",
     img: filter6,
     gallery: [filter6],
-    price: "180 ₼",
+    price: "",
     tag: "İncə",
     desc: "Bütün evi təmiz su ilə təmin edən güclü mərkəzi filtrasiya sistemi.",
     longDesc:
