@@ -3,7 +3,6 @@ import { Phone } from "lucide-react";
 
 const links = [
   { to: "/kataloq", label: "Məhsullar" },
-  { href: "/#ustunlukler", label: "Üstünlüklər" },
   { href: "/#reyler", label: "Rəylər" },
   { href: "/#elaqe", label: "Əlaqə" },
 ];
